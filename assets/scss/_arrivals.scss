@@ -1,0 +1,40 @@
+.arrivals {
+    .arrivals-slider {
+        .box {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            padding: 2rem 1rem;
+            border: $border;
+            margin: 1rem 0;
+            &:hover {
+                border: .1rem solid $green;
+            }
+            .image {
+                img {
+                    height: 15rem;
+                }
+            }
+            .content {
+                h3 {
+                    font-size: 2rem;
+                    color: $black;
+                }
+                .price {
+                    font-size: 2.2rem;
+                    color: $green;
+                    padding-bottom: .5rem;
+                    span {
+                        font-size: 1.6rem;
+                        color: $light-color;
+                        text-decoration: line-through;
+                    }
+                }
+                .stars {
+                    font-size: 1.5rem;
+                    color: $green
+                }
+            }
+        }
+    }
+}

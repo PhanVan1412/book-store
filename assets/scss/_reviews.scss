@@ -1,0 +1,33 @@
+.reviews {
+    .reviews-slider {
+        .box {
+            width: 30rem;
+            border: $border;
+            padding: 2rem;
+            text-align: center;
+            &:hover {
+                border: .1rem solid $green;
+            }
+            img {
+                height: 7rem;
+                width: 7rem;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+            h3 {
+                color: $black;
+                font-size: 2.2rem;
+                padding: 0.5rem 0;
+            }
+            p {
+                color: $light-color;
+                font-size: 1.4rem;
+                padding: 1rem 0;
+                line-height: 2;
+            }.stars i{
+                font-size: 1.7rem;
+                color: $green;
+            }
+        }
+    }
+}

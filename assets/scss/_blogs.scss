@@ -1,0 +1,39 @@
+.blogs {
+    .blogs-slider {
+        .box {
+            width: 30rem;
+            box-shadow: $box-shadow;
+            border-radius: .5rem;
+            border: $border;
+            &:hover {
+                cursor: pointer;
+                .content {
+                    h3 {
+                        color: $green;
+                    }
+                }
+            }
+            .image {
+                border-radius: .5rem;
+                img {
+                    width: 100%;
+                    padding: 1rem;
+                    border-radius: .5rem;
+                
+                }
+            }
+            .content {
+                padding: 1rem;
+                h3 {
+                    font-size: 2rem;
+                    margin-bottom: 1rem;
+                }
+                p {
+                    font-size: 1.4rem;
+                    color: $light-color;
+                    line-height: 1.5;
+                }
+            }
+        }
+    }
+}

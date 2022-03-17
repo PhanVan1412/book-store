@@ -1,0 +1,70 @@
+.footer {
+    border-top: .2rem solid $dark-color;
+    padding-bottom: 3rem;
+    .box-container {
+        display: flex;
+        flex-wrap: wrap;
+        .box {
+            flex: 1 1 30rem;
+            h3 {
+                font-size: 2rem;
+                color: $black;
+                margin-bottom: 2rem;
+            }
+            a {
+                display: block;
+                font-size: 1.6rem;
+                margin-bottom: 1.5rem;
+                color: $light-color;
+                &:hover {
+                    i {
+                        padding-right: 2rem;
+                    }
+                }
+                i {
+                    color: $green;
+                    padding-right: 1rem;
+                }
+            }
+        }
+    }
+    .shares {
+        padding-bottom: 2rem;
+        top: -3rem;
+        text-align: center;
+        justify-content: center;
+        // margin-bottom: 2rem;
+        a{
+            display: inline-block;
+            height: 4rem;
+            width: 4rem;
+            background: $green;
+            // justify-content: center;
+            // align-items: center;
+            line-height: 4rem;
+            font-size: 2rem;
+            color: #fff;
+            margin: 0rem .8rem;
+            border-radius: 50%;
+            &:hover {
+                background: $dark-color;
+                color: gold;
+            }
+        }
+    }
+    .credit {
+
+        // border-top: .1rem solid $dark-color;
+        padding-top: 1rem;
+        font-size: 2rem;
+        text-align: center;
+        i {
+            color: red;
+            font-size: 2.5rem;
+        }
+        span {
+            color: $dark-color;
+            font-weight: bold;
+        }
+    }
+}
